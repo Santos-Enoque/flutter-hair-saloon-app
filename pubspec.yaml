@@ -32,11 +32,19 @@ dependencies:
   google_fonts: 1.1.0
   google_maps_flutter: 0.5.21+3
   flutter_statusbarcolor: 0.2.3
-  admob_flutter: 1.0.0
+#  admob_flutter: 1.0.0
   clustering_google_maps: 0.1.2
   flutter_staggered_grid_view: 0.3.2
   flutter_staggered_animations: 0.1.2
   dots_indicator: ^0.0.4
+  firebase_core: ^0.5.3
+  firebase_auth: ^0.18.4+1
+  cloud_firestore: ^0.14.4
+  provider: ^4.3.2+3
+  google_maps_webservice: ^0.0.19
+  shared_preferences: ^0.5.12+4
+  geolocator: ^6.1.13
+  geocoder: ^0.2.1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -68,6 +76,7 @@ flutter:
   assets:
     - images/hairSalon/
     - images/app/
+    - assets/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

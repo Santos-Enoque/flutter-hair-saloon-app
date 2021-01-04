@@ -19,7 +19,7 @@ class BHSplashScreenState extends State<BHSplashScreen> {
   }
 
   init() async{
-    Timer(Duration(seconds: 5), () {
+    Timer(Duration(seconds: 2), () {
       finish(context);
       BHWalkThroughScreen().launch(context);
     });

@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:admob_flutter/admob_flutter.dart';
+// import 'package:admob_flutter/admob_flutter.dart';
 import 'package:booking/main/store/AppStore.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:clustering_google_maps/clustering_google_maps.dart';
@@ -316,41 +316,41 @@ String getInterstitialAdUnitId() {
   return null;
 }
 
-class AdMobAdWidget extends StatefulWidget {
-  @override
-  AdMobAdWidgetState createState() => AdMobAdWidgetState();
-}
+// class AdMobAdWidget extends StatefulWidget {
+//   @override
+//   AdMobAdWidgetState createState() => AdMobAdWidgetState();
+// }
 
-class AdMobAdWidgetState extends State<AdMobAdWidget> {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      height: 60,
-      width: context.width(),
-      alignment: Alignment.center,
-      child: isMobile
-          ? AdmobBanner(
-              adUnitId: getBannerAdUnitId(),
-              adSize: AdmobBannerSize.BANNER,
-            )
-          : SizedBox(),
-    );
-  }
-}
+// class AdMobAdWidgetState extends State<AdMobAdWidget> {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Container(
+//       height: 60,
+//       width: context.width(),
+//       alignment: Alignment.center,
+//       child: isMobile
+//           ? AdmobBanner(
+//               adUnitId: getBannerAdUnitId(),
+//               adSize: AdmobBannerSize.BANNER,
+//             )
+//           : SizedBox(),
+//     );
+//   }
+// }
 
 String parseHtmlString(String htmlString) {
   return parse(parse(htmlString).body.text).documentElement.text;
 }
 
-Future<AdmobInterstitial> showInterstitialAd() async {
-  AdmobInterstitial interstitialAd = AdmobInterstitial(
-    adUnitId: getInterstitialAdUnitId(),
-    listener: (AdmobAdEvent event, Map<String, dynamic> args) {},
-  );
-  interstitialAd.load();
-
-  return interstitialAd;
-}
+// Future<AdmobInterstitial> showInterstitialAd() async {
+//   AdmobInterstitial interstitialAd = AdmobInterstitial(
+//     adUnitId: getInterstitialAdUnitId(),
+//     listener: (AdmobAdEvent event, Map<String, dynamic> args) {},
+//   );
+//   interstitialAd.load();
+//
+//   return interstitialAd;
+// }
 
 class ContainerX extends StatelessWidget {
   final Widget mobile;

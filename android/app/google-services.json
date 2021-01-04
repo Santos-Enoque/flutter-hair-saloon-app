@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "729084845374",
+    "project_id": "hair-saloon-19a6f",
+    "storage_bucket": "hair-saloon-19a6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729084845374:android:64c4a6a3152eebfa83206f",
+        "android_client_info": {
+          "package_name": "com.santosenoque.booking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729084845374-ccbpeskknid6alverh9q2gv2deep5m7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdRNhxSasSdvyPoAl1wjwn901kxcTZzCo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729084845374-ccbpeskknid6alverh9q2gv2deep5m7g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
